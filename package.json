@@ -1,0 +1,26 @@
+{
+	"name": "brailledraw",
+	"version": "0.0.1",
+	"description": "Draw on the text based canvas using unicode Braille patterns.",
+	"license": "UNLICENSED",
+	"main": "./src/index.js",
+	"bin": "./src/cli.js",
+	"repository": "github:woxxo/brailledraw",
+	"scripts": {
+		"start": "bun ./src/cli.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"@types/bun": "latest"
+	},
+	"keywords": [
+		"braille",
+		"canvas",
+		"unicode",
+		"draw",
+		"text",
+		"bun"
+	],
+	"author": "woxxo"
+}
