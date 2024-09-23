@@ -1,5 +1,5 @@
 export class BrailleDraw {
-	static #VERSION = 'BrailleDraw v.0.0.1';
+	static #VERSION = 'BrailleDraw v.0.0.2';
 	static #brailleOffset = 0x2800;
 	static #pattern = [
 		[0x1, 0x8],
